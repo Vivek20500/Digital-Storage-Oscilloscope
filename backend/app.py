@@ -11,7 +11,7 @@ def modulate():
     mod_type = data.get('type', 'ASK')
     amp = float(data.get('amplitude', 1))
     freq = float(data.get('frequency', 5))
-    bitstream = data.get('bitstream', '1010')
+    bitstream = data.get('bitstream', '00111001')
 
     bits = [int(b) for b in bitstream]
     
